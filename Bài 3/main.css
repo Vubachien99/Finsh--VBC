@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    Width: 1213px;
+    Height: 830px;
+    Top: 173px;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    padding: 100px
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.navheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 74px;
+}
+
+.navheader .left input {
+    width: 150%;
+    height: 40px;
+}
+
+.navheader .right ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navheader .right ul li {
+    list-style-type: none;
+    padding: 16px;
+}
+
+.navheader .right ul .li2 {
+    background-color: #849FFF;
+    border-radius: 8px;
+}
+
+/* phan than */
+.contentbody {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.contentbody .box {
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    height: 208px;
+    padding: 0 5px 0 0;
+}
+
+.contentbody .left_box {
+    padding-right: 5px;
+}
+
+.contentbody .right_box .btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.contentbody .right_box .btn p {
+    border: 0.5px solid #BFC8E6;
+    padding: 0 3px 0 3px;
+    border-radius: 6px;
+    color: #516FD4;
+}
